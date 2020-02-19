@@ -47,7 +47,8 @@ To Use:
 		
 		output_directory = "X:/file/location/"
 		
-		If you want to name the columns differently than what is given in the example input, you have to specify what labels you are using for the data required to run the script:
+		If you want to name the columns differently than what is given in the example input, you have to specify 
+		what labels you are using for the data required to run the script:
 		
 		ID_name = "CLINICALDATA.ID"
 		
