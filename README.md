@@ -19,32 +19,58 @@ The R environment also contains information used to plot the normal aging curves
 SARA was created and tested on R version 3.5.3 and Rstudio version 1.2.5019, and using FreeSurfer 5.3. Use of other versions may impact results or cause the script to fail.
 
 To Use:
+
 	1. Download and install R and R Studio
+	
 	2. Open R studio and load the function by entering the following into the terminal and hitting enter
+	
 		a. source("X:/file/location/SARA_function.R")
+		
 	3. Run the function by entering the following into the terminal and hitting enter
+	
 		SARA(
 		normals_data_location ="X:/file/location/SARA_Normal_Aging_Input.RData",
 		patient_data_location ="X:/file/location/Patient_Input.csv",
 		)
+		
 	4. Depending on what you want, you can add any of the following inside the parentheses, separated by commas
+	
 		If you want to also create the images (only use if your data is only on one person):
+		
 		make_graphs=TRUE
+		
 		If you want to only create the images and not the .csv file add this in addition to make_graphs=TRUE :
+		
 		make_csv=FALSE 
+		
 		If you want the output of the function to go somewhere other than your current working directory:
+		
 		output_directory = "X:/file/location/"
+		
 		If you want to name the columns differently than what is given in the example input, you have to specify what labels you are using for the data required to run the script:
+		
 		ID_name = "CLINICALDATA.ID"
+		
 		age_label = "Age"
+		
 		IntraCranialVol = "IntraCranialVol"
+		
 		Left.Amygdala_volume = "Left.Amygdala_volume"
+		
 		Right.Amygdala_volume="Right.Amygdala_volume"
+		
 		Left.Hippocampus_volume="Left.Hippocampus_volume"
+		
 		Right.Hippocampus_volume="Right.Hippocampus_volume"
+		
 		Left.Inf.Lat.Vent_volume="Left.Inf.Lat.Vent_volume"
+		
 		Right.Inf.Lat.Vent_volume="Right.Inf.Lat.Vent_volume"
+		
 		lh_entorhinal_thickness="lh_entorhinal_thickness"
+		
 		rh_entorhinal_thickness="rh_entorhinal_thickness"
+		
 		lh_inferiorparietal_thickness="lh_inferiorparietal_thickness"
-rh_inferiorparietal_thickness="rh_inferiorparietal_thickness"
+		
+		rh_inferiorparietal_thickness="rh_inferiorparietal_thickness"
