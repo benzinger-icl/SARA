@@ -10,7 +10,7 @@ The results of running this script are a CSV file with all original volumetric d
 
 The specific data required to run SARA are: ID, Age, Intracranial volume, Left and Right Hippocampus volumes, Left and Right Amygdala volumes, Left and Right Inferior Lateral Ventricle Volume, Left and right entorinhal thickness, left and right inferior parietal thickness. 
 
-Other thicknesses and volumes can be included if desired, but no other data (ie demographics). Names must match those in the example_input.csv or the script will fail.
+Other thicknesses and volumes can be included if desired, but no other data (ie demographics). Region names must match those in the Example_Patient_Input.csv or the script will fail.
 
 These are used to calculate the percent liklihood that an individual has a pattern of atrophy indicative of symptomatic Alzheimer disease. Part of this process includes adjusting all volumes (except the white matter hyperintensities if included) for intracranial volume, or head size. The information needed for this is part of the R environment that should be downloaded in addition to the R script containing the SARA_function(). 
 
@@ -30,7 +30,7 @@ To Use:
 	
 		SARA(
 		normals_data_location ="X:/file/location/SARA_Normal_Aging_Input.RData",
-		patient_data_location ="X:/file/location/Patient_Input.csv",
+		patient_data_location ="X:/file/location/Example_Patient_Input.csv",
 		)
 		
 	4. Depending on what you want, you can add any of the following inside the parentheses, separated by commas
