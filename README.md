@@ -25,18 +25,29 @@ SARA was created and tested on R version 3.5.3 and RStudio version 1.2.5019, and
 
 	1. Download and install R and R Studio
 	
-	2. Open R studio and load the function by entering the following into the terminal and hitting enter
+	2. Download from this repository the files 
+		Example_Patient_Input.csv
+		SARA_Normal_Aging_Input.RData
+		SARA_function.R
 	
-		a. source("X:/file/location/SARA_function.R")
-		
-	3. Run the function by entering the following into the terminal and hitting enter
+	3. Enter your FreeSurfer information into the Example_Patient_Input.csv, with each row being an MRI scan
 	
-		SARA(
-		normals_data_location ="X:/file/location/SARA_Normal_Aging_Input.RData",
-		patient_data_location ="X:/file/location/Example_Patient_Input.csv",
-		)
+	4. Open R studio and load the function by entering the following into the terminal and hitting enter
+	
+```{r}
+source("X:/file/location/SARA_function.R")
+```
+	
+	5. Run the function by entering the following into the terminal and hitting enter
+	
+```{r}
+SARA(
+normals_data_location ="X:/file/location/SARA_Normal_Aging_Input.RData",
+patient_data_location ="X:/file/location/Example_Patient_Input.csv",
+)
+```
 		
-	4. Depending on what you want, you can add any of the following inside the parentheses, separated by commas
+	6. Depending on what you want, you can add any of the following inside the parentheses, separated by commas
 	
 		If you want to also create the images (only use if your data is only on one person):
 		
@@ -79,5 +90,5 @@ SARA was created and tested on R version 3.5.3 and RStudio version 1.2.5019, and
 		
 		rh_inferiorparietal_thickness="rh_inferiorparietal_thickness"
 
-Creation and validation of the SARA model is outlined here: 
+Creation and validation of the SARA model is outlined here: (under review, will update when paper is accepted)
 SARA's Alzheimer classification has not been evaluated in those under age 45 and works best for those being evaluated for Alzheimer disease in addition to non-neurodegenerative diagnoses and/or frontotemporal dementia.
