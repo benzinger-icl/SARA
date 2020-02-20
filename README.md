@@ -19,7 +19,7 @@ These are used to calculate the percent liklihood that an individual has a patte
 
 The R environment also contains information used to plot the normal aging curves, and determine the age-specific z-score/percentile for each subject plotted on the normal aging curve. Make_graphs=True assumes the provided data is all for a single subject, and will additionally calculate the rate of change for each region over time, and the corresponding rate for the normal aging graph. 
 
-SARA was created and tested on R version 3.5.3 and Rstudio version 1.2.5019, and using FreeSurfer 5.3. Use of other versions may impact results or cause the script to fail.
+SARA was created and tested on R version 3.5.3 and RStudio version 1.2.5019, and using data from FreeSurfer 5.3. Use of other versions may impact results or cause the script to fail.
 
 ## To Use:
 
