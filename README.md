@@ -8,8 +8,8 @@ The results of running this script are a CSV file with all original volumetric d
 
 ### Example Output Images
 
-![Example_Normal_Aging_Curve](https://github.com/benzinger-icl/SARA/blob/master/Example_Right.Hippocampus_volume.png)
-![Example_SARA_Image](https://github.com/benzinger-icl/SARA/blob/master/Example1_SARA_classification.png)
+![Example_Normal_Aging_Curve](https://github.com/benzinger-icl/SARA/blob/master/Example_Images/Example_Right.Hippocampus_volume.png)
+![Example_SARA_Image](https://github.com/benzinger-icl/SARA/blob/master/Example_Images/Example1_SARA_classification.png)
 
 The specific data required to run SARA are: ID, Age, Intracranial volume, Left and Right Hippocampus volumes, Left and Right Amygdala volumes, Left and Right Inferior Lateral Ventricle Volume, Left and right entorinhal thickness, left and right inferior parietal thickness. 
 
