@@ -1,10 +1,8 @@
 # SARA
-Volumetric classification model using Select Atrophied Regions in Alzheimer disease
-And Displays On Normal Aging Volumetric Graphs
 
-SARA: Select Atrophied Regions in Alzheimer Disease
+SARA: Select Atrophied Regions in Alzheimer Disease is a logistic algorithm that predicts the likelihood of a symptomatic Alzheimer disease diagnosis. It uses volumetric data determined by FreeSurfer 5.3. 
 
-SARA is a logistic algorithm that predicts the likelihood of a symptomatic Alzheimer disease diagnosis. It uses volumetric data determined by FreeSurfer 5.3. 
+SARA additionally will plot volumetric data on Normal Aging curves and determine an individual's percentile for their age.
 
 The results of running this script are a CSV file with all original volumetric data, though with volumes having been corrected for intracranial volume, the age-specific z-score for each subject for each region, and the SARA output: expressed both as a percentage from 0-1 and categories based upon sensitivity and specificity in a previously evaluated group of patients. If make_graphs=T, a graph of each region showing the subject's data overlayed on normal aging curves, and a graphical representation of the SARA results will additionally be created.
 
