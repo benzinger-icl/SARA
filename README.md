@@ -33,19 +33,13 @@ SARA was created and tested on R version 3.5.3 and RStudio version 1.2.5019, and
 	3. Enter your FreeSurfer information into the Example_Patient_Input.csv, with each row being an MRI scan
 	
 	4. Open R studio and load the function by entering the following into the terminal and hitting enter
-	
-```{r}
 source("X:/file/location/SARA_function.R")
-```
 	
 	5. Run the function by entering the following into the terminal and hitting enter
-	
-```{r}
 SARA(
 normals_data_location ="X:/file/location/SARA_Normal_Aging_Input.RData",
 patient_data_location ="X:/file/location/Example_Patient_Input.csv",
 )
-```
 		
 	6. Depending on what you want, you can add any of the following inside the parentheses, separated by commas
 	
@@ -61,8 +55,8 @@ patient_data_location ="X:/file/location/Example_Patient_Input.csv",
 		
 		output_directory = "X:/file/location/"
 		
-		If you want to name the columns differently than what is given in the example input, you have to specify 
-		what labels you are using for the data required to run the script:
+		If you want to name the columns differently than what is given in the example input, you have to 
+		specify what labels you are using for the data required to run the script:
 		
 		ID_name = "CLINICALDATA.ID"
 		
