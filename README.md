@@ -1,12 +1,17 @@
 # SARA
 Volumetric classification model using Select Atrophied Regions in Alzheimer disease
-And Normal Aging Volumetric Graphs
+And Displays On Normal Aging Volumetric Graphs
 
 SARA: Select Atrophied Regions in Alzheimer Disease
 
-SARA is a logistic algorithm that predicts the likelihood of a symptomatic Alzheimer disease diagnosis. It uses volumetric data determined by FreeSurfer 5.3 and age. 
+SARA is a logistic algorithm that predicts the likelihood of a symptomatic Alzheimer disease diagnosis. It uses volumetric data determined by FreeSurfer 5.3. 
 
 The results of running this script are a CSV file with all original volumetric data, though with volumes having been corrected for intracranial volume, the age-specific z-score for each subject for each region, and the SARA output: expressed both as a percentage from 0-1 and categories based upon sensitivity and specificity in a previously evaluated group of patients. If make_graphs=T, a graph of each region showing the subject's data overlayed on normal aging curves, and a graphical representation of the SARA results will additionally be created.
+
+### Example Output Images
+
+![Example_Normal_Aging_Curve](https://github.com/benzinger-icl/SARA/blob/master/Example_Right.Hippocampus_volume.png)
+![Example_SARA_Image](https://github.com/benzinger-icl/SARA/blob/master/Example1_SARA_classification.png)
 
 The specific data required to run SARA are: ID, Age, Intracranial volume, Left and Right Hippocampus volumes, Left and Right Amygdala volumes, Left and Right Inferior Lateral Ventricle Volume, Left and right entorinhal thickness, left and right inferior parietal thickness. 
 
@@ -18,7 +23,7 @@ The R environment also contains information used to plot the normal aging curves
 
 SARA was created and tested on R version 3.5.3 and Rstudio version 1.2.5019, and using FreeSurfer 5.3. Use of other versions may impact results or cause the script to fail.
 
-To Use:
+## To Use:
 
 	1. Download and install R and R Studio
 	
@@ -75,3 +80,5 @@ To Use:
 		lh_inferiorparietal_thickness="lh_inferiorparietal_thickness"
 		
 		rh_inferiorparietal_thickness="rh_inferiorparietal_thickness"
+
+Creation and validation of the SARA model is outlined here: 
