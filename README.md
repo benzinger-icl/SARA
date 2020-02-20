@@ -45,44 +45,44 @@ SARA was created and tested on R version 3.5.3 and RStudio version 1.2.5019, and
 	
 		If you want to also create the images (only use if your data is only on one person):
 		
-		make_graphs=TRUE
+			make_graphs=TRUE
 		
 		If you want to only create the images and not the .csv file add this in addition to make_graphs=TRUE :
 		
-		make_csv=FALSE 
+			make_csv=FALSE 
 		
 		If you want the output of the function to go somewhere other than your current working directory:
 		
-		output_directory = "X:/file/location/"
+			output_directory = "X:/file/location/"
 		
 		If you want to name the columns differently than what is given in the example input, you have to 
 		specify what labels you are using for the data required to run the script:
 		
-		ID_name = "CLINICALDATA.ID"
+			ID_name = "CLINICALDATA.ID"
 		
-		age_label = "Age"
+			age_label = "Age"
 		
-		IntraCranialVol = "IntraCranialVol"
+			IntraCranialVol = "IntraCranialVol"
 		
-		Left.Amygdala_volume = "Left.Amygdala_volume"
+			Left.Amygdala_volume = "Left.Amygdala_volume"
 		
-		Right.Amygdala_volume="Right.Amygdala_volume"
+			Right.Amygdala_volume="Right.Amygdala_volume"
 		
-		Left.Hippocampus_volume="Left.Hippocampus_volume"
+			Left.Hippocampus_volume="Left.Hippocampus_volume"
 		
-		Right.Hippocampus_volume="Right.Hippocampus_volume"
+			Right.Hippocampus_volume="Right.Hippocampus_volume"
 		
-		Left.Inf.Lat.Vent_volume="Left.Inf.Lat.Vent_volume"
+			Left.Inf.Lat.Vent_volume="Left.Inf.Lat.Vent_volume"
 		
-		Right.Inf.Lat.Vent_volume="Right.Inf.Lat.Vent_volume"
+			Right.Inf.Lat.Vent_volume="Right.Inf.Lat.Vent_volume"
 		
-		lh_entorhinal_thickness="lh_entorhinal_thickness"
+			lh_entorhinal_thickness="lh_entorhinal_thickness"
 		
-		rh_entorhinal_thickness="rh_entorhinal_thickness"
+			rh_entorhinal_thickness="rh_entorhinal_thickness"
 		
-		lh_inferiorparietal_thickness="lh_inferiorparietal_thickness"
+			lh_inferiorparietal_thickness="lh_inferiorparietal_thickness"
 		
-		rh_inferiorparietal_thickness="rh_inferiorparietal_thickness"
+			rh_inferiorparietal_thickness="rh_inferiorparietal_thickness"
 
 Creation and validation of the SARA model is outlined here: (under review, will update when paper is accepted)
 SARA's Alzheimer classification has not been evaluated in those under age 45 and works best for those being evaluated for Alzheimer disease in addition to non-neurodegenerative diagnoses and/or frontotemporal dementia.
