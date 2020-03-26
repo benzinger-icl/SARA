@@ -84,5 +84,5 @@ SARA was created and tested on R version 3.5.3 and RStudio version 1.2.5019, and
 		
 			rh_inferiorparietal_thickness="rh_inferiorparietal_thickness"
 
-Creation and validation of the SARA model is outlined here: (under review, will update when paper is accepted)
+Creation and validation of the SARA model is outlined here: https://www.sciencedirect.com/science/article/pii/S2213158220300851
 SARA's Alzheimer classification has not been evaluated in those under age 45 and works best for those being evaluated for Alzheimer disease in addition to non-neurodegenerative diagnoses and/or frontotemporal dementia.
